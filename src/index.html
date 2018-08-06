@@ -3,12 +3,48 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>cual sera el titulo?</title>
+    <title>Tsabrotzito</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/non-styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/grid.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
     <script src="main.js"></script>
 </head>
-<body>
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
     
+    <div style="display:none;" id="myLoader" class="animate-bottom">
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+       
+
+    <div class="wrapper">
+        <header class="header"><h1>Tsabrotzito</h1>
+            <form>
+            <input type="text" placeholder="Busqueda">
+            </form>
+            
+        </header>
+
+        <article class="content">
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+        </article>
+    </div>
+    </div> 
+    <script src="./main.js/index.js"></script>
 </body>
 </html>
