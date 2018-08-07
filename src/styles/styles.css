@@ -24,6 +24,11 @@ body {
     animation: spin 2s linear infinite;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 @-webkit-keyframes spin {
     0% {
         -webkit-transform: rotate(0deg);
@@ -82,9 +87,9 @@ body {
 /*End loader*/
 
 h1 {
-    size: 8vw;
     text-align: center;
     color: rgb(247, 7, 7);
+    font-size: 130%;
 }
 
 input[type=text] {
@@ -99,6 +104,17 @@ input[type=text] {
 }
 
 /* The Modal*/
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -110,31 +126,60 @@ input[type=text] {
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgba(238, 230, 230, 0.9); /* Black w/ opacity */
 }
 
-/* Modal Content */
+/* Modal Content (image) */
 .modal-content {
-    background-color: #fefefe;
     margin: auto;
+    display: block;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
 }
 
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
 /* The Close Button */
 .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-    color: #000;
+    color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
 }
 
 /*End Modal*/

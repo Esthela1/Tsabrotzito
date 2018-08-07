@@ -1,5 +1,7 @@
-:<!DOCTYPE html>
+:
+<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,44 +10,60 @@
     <link rel="stylesheet" type="text/css" href="./styles/non-styles.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./styles/grid.css" />
     <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
-   
-</head>
-<body onload="myFunction()" style="margin:0;">
 
+</head>
+
+<body onload="myFunction()" style="margin:0;">
     <div id="loader"></div>
-    
     <div style="display:none;" id="myLoader" class="animate-bottom">
 
-          
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>PASTELERIA RANOIR
+                    <br> Av. Division del Nte. 6B,
+                    <br> Col del valle Nte, 03100
+                    <br> Ciudad de México, CDMX.
+                    <br> rainor.com
+                    <br> 01 55 59080483
+                </p>
+            </div>
+        </div>
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
-  </div>
+        <div class="wrapper">
+            <header class="header">
+                <h1>Tsabrotzito</h1>
+                <form>
+                    <select id="mySelect" onchange="myFunction()">
+                        <option value="Postres">Postres</option>
+                        <option value="Tacos">Tacos</option>
+                    </select>
 
-</div>
-       
+                    <script>
+                        function myFunction() {
+                            var x = document.getElementById("mySelect").value;
+                            document.getElementById("demo").innerHTML = "You selected: " + x;
+                        }
+                    </script>
+                </form>
+                <div>
 
-    <div class="wrapper">
-        <header class="header"><h1>Tsabrotzito</h1>
-            <form>
-            <input type="text" placeholder="Busqueda">
-            </form>
-            
-        </header>
+                </div>
+            </header>
 
-        <article class="content">
-<!-- Trigger/Open The Modal -->
-<!-- <button id="myBtn">Open Modal</button> -->
-<div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d120424.49940804784!2d-99.16536663120766!3d19.400926660935674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes!5e0!3m2!1ses-419!2smx!4v1533620067735" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div> 
+            <article class="content">
+                <div>
+                    <img id="myImg" src="./images/Pasteleria.PNG" alt="Snow">
+                </div>
+        </div>
         </article>
     </div>
-    </div> 
+    </div>
     <script src="./scripts/main.js"></script>
+
 </body>
+
 </html>

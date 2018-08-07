@@ -29,21 +29,6 @@ Una vez cerrado el modal debe volver a la vista principal.
 
 ##Pseudocodigo
 Esta es una web-app llamada: Tsabrotzito en la que puedes entrar a un mapa
-En el que veras la ubicacion de los restaurantes mas cercanos a ti
-Y podras filtrar por tipo de comida
+En el que veras una pasteleria llamada Ranoir al dar click en el mapa
+Este mostrara un modal con la informacion de la pasteleria Ranoir.
 
-##Argumentacion del proyecto
-
-Se solicito un mapa de comida que ayuda a las personas a ubicar un
-lugar en el que puede adquirir comida dentro de un mapa, se dan pocas
-Especificaciones, así que empiezo una breve investigacion para priorizar
-Las funciones de la primera entrega: 
-
-##Benchmarck
-
-##Prototipo
-**Sketch para movil**
-**Scketch para web**
-
-##Historia de usuario
-# Tsabrotzito 
