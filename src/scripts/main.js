@@ -2,7 +2,7 @@
 var LoaderBlue;
 
 function myFunction() {
-    LoaderBlue = setTimeout(showPage, 3000);
+    LoaderBlue = setTimeout(showPage, 2000);
 }
 
 function showPage() {

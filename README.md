@@ -1,4 +1,6 @@
-##F O O D M A P introduccion de proyecto
+##F O O D M A P Tsabrotzito
+
+introduccion de proyecto
 
 Crea una web-app que a través de un input pueda filtrar
 los restaurantes que se encuentran cerca de ti
@@ -26,7 +28,9 @@ deberá mostrarse la información de este a través de un modal.
 Una vez cerrado el modal debe volver a la vista principal.
 
 ##Pseudocodigo
-Esta es una web movile first llamada: 
+Esta es una web-app llamada: Tsabrotzito en la que puedes entrar a un mapa
+En el que veras la ubicacion de los restaurantes mas cercanos a ti
+Y podras filtrar por tipo de comida
 
 ##Argumentacion del proyecto
 
@@ -42,4 +46,4 @@ Las funciones de la primera entrega:
 **Scketch para web**
 
 ##Historia de usuario
-# Tsabrotzito
+# Tsabrotzito 
