@@ -82,6 +82,7 @@ body {
 /*End loader*/
 
 h1 {
+    size: 8vw;
     text-align: center;
     color: rgb(247, 7, 7);
 }
