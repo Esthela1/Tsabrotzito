@@ -28,6 +28,7 @@ deberá mostrarse la información de este a través de un modal.
 Una vez cerrado el modal debe volver a la vista principal.
 
 ##Pseudocodigo
+
 Esta es una web-app llamada: Tsabrotzito en la que puedes entrar a un mapa
 En el que veras una pasteleria llamada Ranoir al dar click en el mapa
 Este mostrara un modal con la informacion de la pasteleria Ranoir.
