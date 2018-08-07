@@ -35,6 +35,8 @@
         <div class="wrapper">
             <header class="header">
                 <h1>Tsabrotzito</h1>
+                <p>Encuentra la comida más sabrosita y que esta cerca de tí<br><br>
+                INSTRUCCIONES: Da click en el mapa para que veas los datos del lugar</p>
                 <form>
                     <select id="mySelect" onchange="myFunction()">
                         <option value="Postres">Postres</option>
@@ -45,6 +47,7 @@
                         function myFunction() {
                             var x = document.getElementById("mySelect").value;
                             document.getElementById("demo").innerHTML = "You selected: " + x;
+
                         }
                     </script>
                 </form>
